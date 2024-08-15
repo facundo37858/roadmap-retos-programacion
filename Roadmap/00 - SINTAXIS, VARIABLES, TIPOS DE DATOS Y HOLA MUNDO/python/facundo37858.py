@@ -14,16 +14,22 @@ https://realpython.com/python-comments-guide/
 Comentario multiple
 '''
 # Variables
-    # Numericas
-numerica =10
+    # Enteros
+numerica : int = 10
     # Texto
 texto = 'Texto'
+texto = "Texto1"
     # Booleanas
-booleanas = True
+bool = True
+bool = False
     # Flotantes
 flotantes = 2.3
     # Complejas
 complejos = 2+9j
+
+# Representación constante (convención) 
+CONSTANTE_NUM = 9
+CONSTANTE = "Hola"
 
 # Imprimir
 print("Hola, python.")
